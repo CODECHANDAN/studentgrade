@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAD SYSTEM</title>
+    <link rel="stylesheet" type="text/css" href="style.css"
+</head>
+<body>
+    <div class="container">
+    
+        <form class = "form">
+            <div class ="h2">
+                <h2>Grading system In js</h2>
+            </div>
+                <div class="book1">
+                     <label>English </label>
+                    <input id="bookOne" type="number" name="" placeholder="Marks">
+                </div>
+
+                <div class="book2">
+                     <label>Maths </label>
+                    <input id="bookTwo" type="number" name="" placeholder="Marks">
+                </div>
+
+
+                <div class="book3">
+                     <label>Physics </label>
+                    <input id="bookThree" type="number" name="" placeholder="Marks">
+                </div>
+
+
+                <div class="book4">
+                     <label>Chemistry </label>
+                     <input id="bookFour" type="number" name="" placeholder="Marks">
+                </div>
+
+                <div class="book5">
+                     <label>Computer </label>
+                    <input id="bookFive" type="number" name="" placeholder="Marks">
+                </div>
+
+                <div>
+                    <button class="btn" onclick=" return calculate()">Calculate grade</button>
+                </div>
+        </form>
+
+        <div class="table">
+            <table>
+                    <tr>
+                      <td>Total: </td>
+                      <td id="obtain"></td>
+                    </tr>
+
+                    <tr>
+                      <td>Average: </td>
+                      <td id="avg"></td>
+                    </tr>
+
+
+                    <tr>
+                      <td>Grade: </td>
+                      <td id="grade"></td>
+                    </tr>
+
+            </table>
+
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="grade.js" ></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+}
+
+.btn{
+    background-color: black;
+    color:white;
+}
+
+.form{
+    border:2px solid black,
+    
+}
+
+
+.h2{
+    background-color: black;
+    color: white;
+}
+
+.table{
+    
+    padding:40px
+}
+
+
+table{
+    border-collapse: collapse;
+    
+}
+table,th,td{
+    border:1px solid black;
+    padding:40px,
+ 
+}
+
